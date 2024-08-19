@@ -196,7 +196,7 @@ public:
         consensus.stage3DevelopmentFundAddress = "RPJrSvCunykMM66TKzkjri7eypa1iZwJbn";
         consensus.stage3CommunityFundAddress = "RL4GyTizZkC7kXEuBC6HysVXJ5BHfxyj7o";
 
-        consensus.nStartCollateralChange = 259200;
+        consensus.nStartCollateralChange = 0;
 
         std::vector<FundRewardStructure> rewardStructuresDev = { {INT_MAX,8} }; // 8% dev fee forever    
         std::vector<FundRewardStructure> rewardStructuresCommunity = { {INT_MAX,33} }; // 33% community fee forever    
