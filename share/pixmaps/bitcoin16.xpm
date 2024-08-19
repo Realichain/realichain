@@ -1,0 +1,25 @@
+/* XPM */
+static char *bitcoin16[] = {
+/* columns rows colors chars-per-pixel */
+"16 16 3 1 ",
+"  c #020202",
+". c #FAAF40",
+"X c None",
+/* pixels */
+"XXXXXXXXXXXXXXXX",
+"XXXXXXXXXXXXXXXX",
+"XXXXX.X    XXXXX",
+"XXX X.X   XXXXXX",
+"XX  X.X XX...XXX",
+"XX  X.XX...XX XX",
+"X  X..X...X   XX",
+"X  X.....X    XX",
+"X  X....XX    XX",
+"X X.......X   XX",
+"X X........X  XX",
+"XXX..XXXXX..X XX",
+"XX..X    XX.XXXX",
+"XXXX      XXXXXX",
+"XXXXX      XXXXX",
+"XXXXXXXXXXXXXXXX"
+};
