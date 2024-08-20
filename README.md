@@ -94,5 +94,5 @@ See (doc/build-windows.md) for instructions on building on Windows 64/32 bit.
 
 ### Code Contributors
 
- Code creator is https://firo.org "firo" team, thank you.
+ Code created by "firo" team.
 
