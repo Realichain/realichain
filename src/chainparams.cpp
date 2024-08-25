@@ -180,8 +180,8 @@ public:
         consensus.chainType = Consensus::chainMain;
 
         consensus.nSubsidyHalvingFirst = 1;
-        consensus.nSubsidyHalvingSecond = AdjustEndingBlockNumberAfterSubsidyHalving(1, 1050000, 250); // =958655
-        consensus.nSubsidyHalvingInterval = 1050000*2; //approx every 4 years
+        consensus.nSubsidyHalvingSecond = AdjustEndingBlockNumberAfterSubsidyHalving(1, 518400, 250); // =958655
+        consensus.nSubsidyHalvingInterval = 518400*2; //approx every 4 years
         consensus.nSubsidyHalvingStopBlock = AdjustEndingBlockNumberAfterSubsidyHalving(0, 8646849, 250);  // =6807477
 
         consensus.stage2DevelopmentFundShare = 15;
@@ -369,6 +369,7 @@ public:
                 boost::assign::map_list_of
                 (0, uint256S("0x4381deb85b1b2c9843c222944b616d997516dcbd6a964e1eaf0def0830695233"))
 		 (2261, uint256S("0xcd12d53c9f3e7d3e977966ce8436c49a2e93dd90c9bab35a196b24d8caeb7514"))
+		(5335, uint256S("0xa2ae8de736815b6ca3fec3debc9fdb99fb109a722695c98323d718b1a4910ea3"))
 		
                 
         };
