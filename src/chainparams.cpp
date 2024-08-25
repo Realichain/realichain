@@ -180,8 +180,8 @@ public:
         consensus.chainType = Consensus::chainMain;
 
         consensus.nSubsidyHalvingFirst = 1;
-        consensus.nSubsidyHalvingSecond = AdjustEndingBlockNumberAfterSubsidyHalving(1, 1050000, 250); // =958655
-        consensus.nSubsidyHalvingInterval = 1050000*2; //approx every 4 years
+        consensus.nSubsidyHalvingSecond = AdjustEndingBlockNumberAfterSubsidyHalving(1, 518400, 250); // =958655
+        consensus.nSubsidyHalvingInterval = 518400*2; //approx every 4 years
         consensus.nSubsidyHalvingStopBlock = AdjustEndingBlockNumberAfterSubsidyHalving(0, 8646849, 250);  // =6807477
 
         consensus.stage2DevelopmentFundShare = 15;
