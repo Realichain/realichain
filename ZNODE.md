@@ -1,7 +1,7 @@
 Znode Build Instructions and Notes
 =============================
- - Version 1.0.0.1
- - Date: 19 August 2024
+ - Version 1.0.0.2
+ - Date: 25 August 2024
  - More detailed guide available here: https://realichain.org/masternode
 
 Prerequisites
